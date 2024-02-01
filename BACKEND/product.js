@@ -11,6 +11,14 @@ import abj from "./data/abujaData.js";
 
 
 const app = express();
+app.use(express.json())
+app.use(
+  cors({
+    origin: "*",
+    credentials : true
+  })
+)
+
 app.get("/osunData",(req, res) => {
   res.send({
    data : hotel
@@ -24,12 +32,6 @@ app.get("/lagData",(req, res) => {
 })
 
 
-app.use(
-  cors({
-    origin: "*",
-    credentials : true
-  })
-)
 
 // app.use(express.json())
 // app.post((req, res) =>{
