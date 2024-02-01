@@ -142,3 +142,5 @@ const abj = {
     },
   ]
 }
+
+export default abj

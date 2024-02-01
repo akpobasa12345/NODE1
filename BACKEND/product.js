@@ -3,6 +3,9 @@ import hotel from "./BACKEND/data/osunData.js";
 import lag from "./BACKEND/data/lagosData.js"
 import cors from 'cors';
 import cookieParser from "cookie-parser";
+import ibadan from "./data/ibadanData.js";
+import asaba from "./data/asabaData.js";
+import abj from "/data/abujaData.js";
 
 
 

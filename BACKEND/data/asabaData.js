@@ -153,3 +153,5 @@ const asaba =
     }
   ]
 }
+
+export default asaba

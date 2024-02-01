@@ -153,3 +153,4 @@ const ibadan =
     }
   ]
 }
+export default ibadan
